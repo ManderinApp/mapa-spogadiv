@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  text-align: center;
+}
+.title {
+  font-size: 2.5em;
+  margin: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#map {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto 20px;
+  border: 2px solid #ccc;
+}
+#formContainer {
+  margin: 20px;
+}
+#name, #memory {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+}
+#saveBtn {
+  padding: 10px 20px;
+  font-size: 1em;
+}
